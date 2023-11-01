@@ -1,0 +1,20 @@
+.container {
+    
+    display: flex;
+    flex-direction: column;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    min-height: 100px; /* Make sure the container takes at least the full viewport height */
+  }
+  
+  .content {
+    flex: 1; /* Allow the main content to expand and push the footer down */
+  }
+  
+  .footer {
+    flex-shrink: 0; /* Prevent the footer from shrinking when the content expands */
+    
+    text-align: center;
+    padding: 1rem;
+  }
+  
